@@ -48,7 +48,7 @@ of importance:
 All Measurables should implement `MsName() string` and `MsType() Type`.
 
 Measurable-specific methods should always be prefixed by `Ms` so it is clear
-they are intende for consumption by Measurable consumers.
+they are intended for consumption by Measurable consumers.
 
 `MsName`, `MsType` and `MsInt64` should suffice for most consumers of Counter
 and Gauge metric types.
