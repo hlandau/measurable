@@ -108,7 +108,7 @@ func Visit(do func(measurable Measurable) error) error {
 }
 
 // Represents a measurable type.
-type Type int
+type Type uint32
 
 const (
 	// A CounterType Measurable represents a non-negative integral value

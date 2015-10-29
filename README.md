@@ -29,7 +29,10 @@ A Measurable is an object that represents some metric. It is obliged only to
 implement the following interface:
 
 ```go
-type Measurable interface{}
+type Measurable interface {
+  MsName() string
+  MsType() Type
+}
 ```
 
 Measurable is designed around interface upgrades. If you want to actually
