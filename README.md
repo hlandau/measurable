@@ -55,7 +55,7 @@ and Gauge metric types.
 
 Metrics should be named in lowercase using dots to create a hierarchy and
 dashes to separate words, e.g. `someserver.http.request-count`. These metric
-names may be transmuted by consumers as necessary for some graping systems,
+names may be transmuted by consumers as necessary for some graphing systems,
 such as Prometheus (which allows only underscores).
 
 Standard Bindings
