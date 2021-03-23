@@ -1,7 +1,7 @@
 Measurable: The useless Go metric registration package that doesn't do anything
 ===============================================================================
 
-[![GoDoc](https://godoc.org/gopkg.in/hlandau/measurable.v1?status.svg)](https://godoc.org/gopkg.in/hlandau/measurable.v1)
+[![godocs.io](https://godocs.io/gopkg.in/hlandau/measurable.v1?status.svg)](https://godocs.io/gopkg.in/hlandau/measurable.v1) [![No modules](https://www.devever.net/~hl/f/no-modules2.svg) 100% modules-free.](https://www.devever.net/~hl/gomod)
 
 Measurable is a Go library for managing the registration of metrics such as
 counters and gauges, no matter how that metric data is eventually consumed.
